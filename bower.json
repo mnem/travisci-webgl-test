@@ -1,0 +1,19 @@
+{
+  "name": "travisci-webgl-test",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mnem/travisci-webgl-test",
+  "description": "Test dependencies for this test test",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "threejs": "*",
+    "qunit": "~1.14.0"
+  }
+}
