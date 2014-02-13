@@ -6,6 +6,7 @@ env:
 addons:
   firefox: "27.0"
 install:
+  - npm install --global bower grunt-cli
   - npm install
   - bower install
 before_script:
@@ -14,4 +15,3 @@ before_script:
   - wget http://download.slimerjs.org/v0.9/0.9.0/slimerjs-0.9.0.zip
   - unzip slimerjs-0.9.0.zip
   - mv slimerjs-0.9.0 ./slimerjs
-  - npm install --global bower grunt-cli
